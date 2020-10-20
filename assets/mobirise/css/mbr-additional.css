@@ -1112,7 +1112,7 @@ a {
 }
 .cid-sbbZhM04kr {
   padding-top: 4rem;
-  padding-bottom: 6rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
@@ -1125,6 +1125,11 @@ a {
 }
 .cid-sbbZhM04kr img {
   width: 100%;
+}
+.cid-sdWLOymYfS {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
 }
 .cid-sbc6Y6z4Zi {
   padding-top: 2rem;
