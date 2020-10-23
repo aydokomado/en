@@ -13,6 +13,8 @@ git push
 @echo.
 @echo --------------------------------
 @echo PUBLISHED OK
+@echo --------------------------------
+@echo.
 @goto end
 
 :error
