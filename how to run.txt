@@ -1,0 +1,5 @@
+The process will be:
+1. make changes in Mobirize
+2. Publish to local folder. Folder is set already for both JP and EN projects, so you can accept defaults
+3. execute publish.cmd script in JP or EN folder, 
+4. check script results for errors. If allok it should say PUBLISHED OK at the end
