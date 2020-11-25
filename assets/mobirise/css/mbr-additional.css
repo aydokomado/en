@@ -3162,10 +3162,37 @@ a {
   padding-bottom: 6rem;
   background-color: #fff0b0;
 }
-.cid-se9yttxhXg {
-  padding-top: 5rem;
-  padding-bottom: 1rem;
+.cid-shm6sZvrK4 {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
   background-color: #ffffff;
+}
+.cid-shm6sZvrK4 .mbr-section-title,
+.cid-shm6sZvrK4 .mbr-section-subtitle {
+  text-align: center;
+}
+.cid-shm6sZvrK4 .cost {
+  word-break: normal;
+}
+.cid-shm6sZvrK4 .card-wrapper {
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  background: #e9e8e7;
+}
+.cid-shm6sZvrK4 .card-wrapper .top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .cid-shm6sZvrK4 .card-wrapper {
+    padding: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-shm6sZvrK4 .card-wrapper {
+    padding: 1rem;
+  }
 }
 .cid-se9ybwTvp8 {
   padding-top: 2rem;
