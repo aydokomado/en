@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Closed / サービス閉鎖</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+            line-height: 1.6;
+        }
+        .container {
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            max-width: 600px;
+            width: 90%;
+        }
+        h1 {
+            color: #d32f2f; /* A strong red for emphasis */
+            margin-bottom: 20px;
+            font-size: 2.2em;
+        }
+        p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        p.japanese {
+            font-size: 1.3em; /* Slightly larger for Japanese */
+            font-weight: bold;
+            color: #d32f2f;
+            margin-top: 25px;
+        }
+        /* Optional: Add a subtle fade-in animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .container {
+            animation: fadeIn 1s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>This service is closed</h1>
+        <p>We regret to inform you that this service has been permanently closed.</p>
+        <p>Thank you for your understanding.</p>
+        ---
+        <p class="japanese">サイトを閉鎖いたしました</p>
+        <p class="japanese">長らくのご愛顧、誠にありがとうございました。</p>
+    </div>
+</body>
+</html>
